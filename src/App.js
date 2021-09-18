@@ -17,7 +17,8 @@ function App() {
     <div className="app">
       <ExpenseInputForm onSaveExpenseData={saveExpenseDataHandler} />
       <ExpenseContainer>
-        {expenseDataList.map((expenseData, index) => {
+        {//Outputting List and Conditional Rendering
+        expenseDataList.map((expenseData, index) => {
           return (
             <ExpenseItem
               title={expenseData.title}

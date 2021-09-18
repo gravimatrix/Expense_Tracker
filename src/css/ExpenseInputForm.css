@@ -1,0 +1,104 @@
+.expense-input-form {
+  width: 60vw;
+  margin: 2rem auto;
+  padding: 1rem 1rem;
+  background-color: #8F5CDC;
+  border-radius: 0.6rem;
+}
+
+.top-div {
+  display: flex;
+  justify-content: space-between;
+  background-color: #8F5CDC;
+  margin-bottom: 1rem;
+}
+
+.top-div-title {
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  background-color: #8F5CDC;
+  font-size: 1.2rem;
+}
+
+#title-label {
+  background-color: #8F5CDC;
+  margin-bottom: 0.4rem;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+#title {
+  background-color: whitesmoke;
+  border: none;
+  border-radius: 0.4rem;
+  padding: 0.6rem 0;
+}
+
+.top-div-amount {
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  background-color: #8F5CDC;
+  font-size: 1.2rem;
+}
+
+#amount-label {
+  background-color: #8F5CDC;
+  margin-bottom: 0.4rem;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+#amount {
+  background-color: whitesmoke;
+  border: none;
+  border-radius: 0.4rem;
+  padding: 0.6rem 0;
+}
+
+.mid-div {
+  background-color: #8F5CDC;
+  margin-bottom: 1rem;
+}
+
+.mid-div-date {
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  background-color: #8F5CDC;
+  font-size: 1.2rem;
+}
+
+#date-label {
+  background-color: #8F5CDC;
+  margin-bottom: 0.4rem;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+#date {
+  background-color: whitesmoke;
+  border: none;
+  border-radius: 0.4rem;
+  padding: 0.6rem 0;
+}
+
+.bottom-div {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #8F5CDC;
+}
+
+#add-expense-btn{
+    padding: 1rem 1rem;
+    color: whitesmoke;
+    font-size: 1rem;
+    background-color: #4a235a;
+    border: none;
+    border-radius: 0.4rem;
+}
+
+#add-expense-btn:hover{
+    background-color: #69357e;
+}

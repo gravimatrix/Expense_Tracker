@@ -1,0 +1,33 @@
+.expense-item__date {
+    display: flex;
+    flex-direction: column;
+    padding: 0.6rem 1rem;
+    border: 0.1rem solid white;
+    border-radius: 1rem;
+    color: white;
+    background-color: #2B2E30;
+  }
+  
+  .expense-item__date__month {
+    background-color: #2B2E30;
+    text-align: center;
+    margin-bottom: 0.1rem;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  
+  .expense-item__date__year {
+    background-color: #2B2E30;
+    text-align: center;
+    margin-bottom: 0.4rem;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  
+  .expense-item__date__day {
+    background-color: #2B2E30;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 900;
+  }
+  

@@ -1,0 +1,7 @@
+.expenseContainer{
+    width: 60vw;
+    margin: 0 auto;
+    padding: 1.5rem 0.8rem;
+    background-color: #2B2E30;
+    border-radius: 0.6rem;
+}

@@ -1,0 +1,23 @@
+.expense-filter-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2B2E30;
+    margin-bottom: 1rem;
+}
+
+.expense-filter-div label{
+    font-size: 1.2rem;
+    color: white;
+    background-color: #2B2E30;
+}
+
+.expense-filter-div select{
+    padding: 0.5rem 1.5rem;
+    background-color: whitesmoke;
+    border-radius: 0.4rem;
+}
+
+.expense-filter-div option{
+    background-color: whitesmoke;
+}
